@@ -1,0 +1,10 @@
+						<Concept uuid="{concept_uuid}" name="{value_name}"
+							override="false">
+							<Template ref="{template_uuid}" />
+							<Requirements>
+								<Requirement applicability="both" requirement="{require}" exchangeRequirement="{er_uuid}" />
+							</Requirements>
+							<TemplateRules operator="{operator}">
+{template_rules}
+							</TemplateRules>	
+						</Concept>

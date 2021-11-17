@@ -1,0 +1,36 @@
+	<ConceptTemplate uuid="3a0e6536-f2bb-46bd-a58a-eaa55511fabd" name="SingleValueProperty" applicableSchema="IFC4" applicableEntity="IfcObject">
+			<Rules>
+				<AttributeRule AttributeName="IsDefinedBy">
+					<EntityRules>
+						<EntityRule EntityName="IfcRelDefinesByProperties">
+							<AttributeRules>
+								<AttributeRule AttributeName="RelatingPropertyDefinition">
+									<EntityRules>
+										<EntityRule EntityName="IfcPropertySet">
+											<AttributeRules>
+												<AttributeRule AttributeName="HasProperties">
+													<EntityRules>
+														<EntityRule EntityName="IfcPropertySingleValue">
+															<AttributeRules>
+																<AttributeRule RuleID="PropertyName"
+																	AttributeName="Name"/>
+																<AttributeRule RuleID="Value"
+																	AttributeName="NominalValue"/>
+																<AttributeRule RuleID="PropertyUnit"
+																	AttributeName="Unit"/>
+															</AttributeRules>
+														</EntityRule>
+													</EntityRules>
+												</AttributeRule>
+												<AttributeRule RuleID="PropertySetName"
+													AttributeName="Name"/>
+											</AttributeRules>
+										</EntityRule>
+									</EntityRules>
+								</AttributeRule>
+							</AttributeRules>
+						</EntityRule>
+					</EntityRules>
+				</AttributeRule>
+			</Rules>
+		</ConceptTemplate>

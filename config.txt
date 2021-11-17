@@ -1,0 +1,6 @@
+# Datenbankverbindung für erstellte Datenbank, in die der Inhalt der MRL eingefügt werden soll.
+# Für Verbindungdaten pgAdmin öffnen, welches mit PostgreSQL installiert wurde.
+dbname=postgres
+user=postgres
+password=1234
+url=https://biminstitut.uni-wuppertal.de/fileadmin/biminstitut/AW__Downloadbereich_BIM-Institut_und_Homepage_BIM-Anwendungsf%C3%A4lle/

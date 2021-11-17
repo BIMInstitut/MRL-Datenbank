@@ -1,0 +1,7 @@
+				<ConceptRoot uuid="{concept_root_uuid}"
+					name="{cr_name}" applicableRootEntity="{cr_name_ifc}">
+{applicability}
+					<Concepts>
+{concepts}
+					</Concepts>
+				</ConceptRoot>

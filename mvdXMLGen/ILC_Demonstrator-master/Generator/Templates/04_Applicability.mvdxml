@@ -1,0 +1,6 @@
+					<Applicability>
+						<Template ref="{template_uuid}"/>
+						<TemplateRules operator="and">
+{vorbedingung}
+						</TemplateRules>
+					</Applicability>

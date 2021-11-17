@@ -1,0 +1,10 @@
+	<ModelView uuid="{view_uuid}" name="{mv_name}"
+			applicableSchema="IFC4">
+			<ExchangeRequirements>
+				<ExchangeRequirement uuid="{er_uuid}"
+					name="{er_name}" applicability="both" />
+			</ExchangeRequirements>
+			<Roots>
+{concept_roots}
+			</Roots>
+		</ModelView>	
